@@ -1,0 +1,1271 @@
+2015-07-03 14:37:40+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: Crawler)
+2015-07-03 14:37:40+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-07-03 14:37:40+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Crawler.spiders', 'SPIDER_MODULES': ['Crawler.spiders'], 'LOG_FILE': 'xueqiu.log', 'DOWNLOAD_DELAY': 1.0, 'BOT_NAME': 'Crawler'}
+2015-07-03 14:37:40+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-07-03 14:37:40+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-07-03 14:37:40+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-07-03 14:37:40+0800 [scrapy] INFO: Enabled item pipelines: PostPipeline, GubaPostPipeline, XueqiuPostPipeline
+2015-07-03 14:37:40+0800 [XueqiuSpider] INFO: Spider opened
+2015-07-03 14:37:40+0800 [XueqiuSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-07-03 14:37:40+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-07-03 14:37:40+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603> (referer: None)
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:41+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=1&_=14359054603>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609> (referer: None)
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:42+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=2&_=14359054609>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607> (referer: None)
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:43+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=3&_=14359054607>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604> (referer: None)
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:44+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000001&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607> (referer: None)
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:45+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=1&_=14359054607>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608> (referer: None)
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:46+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=2&_=14359054608>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600> (referer: None)
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:48+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=3&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600> (referer: None)
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600> (referer: None)
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:49+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000002&hl=0&source=all&sort=alpha&page=4&_=14359054600>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601> (referer: None)
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:50+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=2&_=14359054601>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606> (referer: None)
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:51+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=3&_=14359054606>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604> (referer: None)
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:52+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000004&hl=0&source=all&sort=alpha&page=4&_=14359054604>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600> (referer: None)
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:53+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=1&_=14359054600>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604> (referer: None)
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:54+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=2&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604> (referer: None)
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:55+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=3&_=14359054604>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609> (referer: None)
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:57+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000005&hl=0&source=all&sort=alpha&page=4&_=14359054609>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616> (referer: None)
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:58+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=1&_=14359054616>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624> (referer: None)
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:37:59+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=2&_=14359054624>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638> (referer: None)
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:00+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=3&_=14359054638>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644> (referer: None)
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:01+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000006&hl=0&source=all&sort=alpha&page=4&_=14359054644>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654> (referer: None)
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:02+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=1&_=14359054654>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663> (referer: None)
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:03+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=2&_=14359054663>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689> (referer: None)
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:04+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=3&_=14359054689>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697> (referer: None)
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:05+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000007&hl=0&source=all&sort=alpha&page=4&_=14359054697>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698> (referer: None)
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:07+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=1&_=14359054698>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704> (referer: None)
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=2&_=14359054704>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712> (referer: None)
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:08+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=3&_=14359054712>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727> (referer: None)
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:10+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000008&hl=0&source=all&sort=alpha&page=4&_=14359054727>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733> (referer: None)
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:11+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=1&_=14359054733>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746> (referer: None)
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:12+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=2&_=14359054746>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757> (referer: None)
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:14+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=3&_=14359054757>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773> (referer: None)
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:15+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000009&hl=0&source=all&sort=alpha&page=4&_=14359054773>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788> (referer: None)
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:16+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=1&_=14359054788>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790> (referer: None)
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:17+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=2&_=14359054790>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808> (referer: None)
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:19+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=3&_=14359054808>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816> (referer: None)
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:20+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000010&hl=0&source=all&sort=alpha&page=4&_=14359054816>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822> (referer: None)
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:21+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=1&_=14359054822>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833> (referer: None)
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:22+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=2&_=14359054833>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842> (referer: None)
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Crawled (200) <GET http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857> (referer: None)
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=3&_=14359054842>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] DEBUG: Scraped from <200 http://xueqiu.com/statuses/search.json?count=15&comment=0&symbol=SZ000011&hl=0&source=all&sort=alpha&page=4&_=14359054857>
+	None
+2015-07-03 14:38:24+0800 [XueqiuSpider] INFO: Closing spider (finished)
+2015-07-03 14:38:24+0800 [XueqiuSpider] INFO: Dumping Scrapy stats:
+	{'downloader/request_bytes': 31680,
+	 'downloader/request_count': 40,
+	 'downloader/request_method_count/GET': 40,
+	 'downloader/response_bytes': 1001563,
+	 'downloader/response_count': 40,
+	 'downloader/response_status_count/200': 40,
+	 'finish_reason': 'finished',
+	 'finish_time': datetime.datetime(2015, 7, 3, 6, 38, 24, 904000),
+	 'item_scraped_count': 600,
+	 'log_count/DEBUG': 642,
+	 'log_count/INFO': 7,
+	 'response_received_count': 40,
+	 'scheduler/dequeued': 40,
+	 'scheduler/dequeued/memory': 40,
+	 'scheduler/enqueued': 40,
+	 'scheduler/enqueued/memory': 40,
+	 'start_time': datetime.datetime(2015, 7, 3, 6, 37, 40, 504000)}
+2015-07-03 14:38:24+0800 [XueqiuSpider] INFO: Spider closed (finished)

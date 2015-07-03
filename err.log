@@ -1,0 +1,589 @@
+2015-07-02 09:33:01+0800 [scrapy] INFO: Scrapy 0.24.5 started (bot: Crawler)
+2015-07-02 09:33:01+0800 [scrapy] INFO: Optional features available: ssl, http11, django
+2015-07-02 09:33:01+0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'Crawler.spiders', 'SPIDER_MODULES': ['Crawler.spiders'], 'LOG_FILE': 'err.log', 'DOWNLOAD_DELAY': 1.0, 'BOT_NAME': 'Crawler'}
+2015-07-02 09:33:01+0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-07-02 09:33:02+0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-07-02 09:33:02+0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-07-02 09:33:02+0800 [scrapy] INFO: Enabled item pipelines: PostPipeline, GubaPostPipeline
+2015-07-02 09:33:02+0800 [GubaSpider] INFO: Spider opened
+2015-07-02 09:33:02+0800 [GubaSpider] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2015-07-02 09:33:02+0800 [scrapy] DEBUG: Telnet console listening on 127.0.0.1:6023
+2015-07-02 09:33:02+0800 [scrapy] DEBUG: Web service listening on 127.0.0.1:6080
+2015-07-02 09:33:02+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/list,000001.html> (referer: None)
+2015-07-02 09:33:03+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,cjpl,181993785.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:03+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,cjpl,181993785.html>
+	None
+2015-07-02 09:33:04+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,cjpl,182029192.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:04+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,cjpl,182029192.html>
+	None
+2015-07-02 09:33:05+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,cjpl,182036602.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:05+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,cjpl,182036602.html>
+	None
+2015-07-02 09:33:06+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182078852.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:06+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182078852.html>
+	None
+2015-07-02 09:33:08+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,176019772.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:08+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,176019772.html>
+	None
+2015-07-02 09:33:09+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182089102.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:09+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182089102.html>
+	None
+2015-07-02 09:33:10+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181963542.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:10+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181963542.html>
+	None
+2015-07-02 09:33:11+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182095609.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:11+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182095609.html>
+	None
+2015-07-02 09:33:12+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182092107.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:12+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182092107.html>
+	None
+2015-07-02 09:33:13+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182095871.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:13+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182095871.html>
+	None
+2015-07-02 09:33:14+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182096832.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:14+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182096832.html>
+	None
+2015-07-02 09:33:15+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182086139.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:15+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182086139.html>
+	None
+2015-07-02 09:33:17+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,szzs,179470487.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:17+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,szzs,179470487.html>
+	None
+2015-07-02 09:33:18+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,cjpl,181939554.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:18+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,cjpl,181939554.html>
+	None
+2015-07-02 09:33:19+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,cjpl,181873595.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:19+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,cjpl,181873595.html>
+	None
+2015-07-02 09:33:20+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182079089.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:20+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182079089.html>
+	None
+2015-07-02 09:33:21+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/list,000001_4.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:22+0800 [GubaSpider] DEBUG: Filtered duplicate request: <GET http://guba.eastmoney.com/list,000001_2.html> - no more duplicates will be shown (see DUPEFILTER_DEBUG to show all duplicates)
+2015-07-02 09:33:23+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/list,000001_3.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:24+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/list,000001_2.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:25+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181836196.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:25+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181836196.html>
+	None
+2015-07-02 09:33:27+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181862341.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:27+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181862341.html>
+	None
+2015-07-02 09:33:28+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181871105.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:28+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181871105.html>
+	None
+2015-07-02 09:33:29+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181877309.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:29+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181877309.html>
+	None
+2015-07-02 09:33:30+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,149626724.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:30+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,149626724.html>
+	None
+2015-07-02 09:33:32+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181966688.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:32+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181966688.html>
+	None
+2015-07-02 09:33:33+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181708466.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:33+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181708466.html>
+	None
+2015-07-02 09:33:34+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181982272.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:34+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181982272.html>
+	None
+2015-07-02 09:33:35+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,116167438.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:35+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,116167438.html>
+	None
+2015-07-02 09:33:36+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181451134.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:36+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181451134.html>
+	None
+2015-07-02 09:33:37+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181983011.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:37+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181983011.html>
+	None
+2015-07-02 09:33:38+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181977359.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:38+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181977359.html>
+	None
+2015-07-02 09:33:39+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,182005117.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:39+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,182005117.html>
+	None
+2015-07-02 09:33:40+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,80293517.html> (referer: http://guba.eastmoney.com/list,000001.html)
+2015-07-02 09:33:40+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,80293517.html>
+	None
+2015-07-02 09:33:42+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181319477.html> (referer: http://guba.eastmoney.com/list,000001_4.html)
+2015-07-02 09:33:42+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181319477.html>
+	None
+2015-07-02 09:33:43+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181556185.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:33:43+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181556185.html>
+	None
+2015-07-02 09:33:44+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181805085.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:44+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181805085.html>
+	None
+2015-07-02 09:33:45+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181795402.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:45+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181795402.html>
+	None
+2015-07-02 09:33:46+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,180879181.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:46+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,180879181.html>
+	None
+2015-07-02 09:33:47+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178428673.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:47+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178428673.html>
+	None
+2015-07-02 09:33:48+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181804201.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:48+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181804201.html>
+	None
+2015-07-02 09:33:49+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,174187041.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:49+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,174187041.html>
+	None
+2015-07-02 09:33:50+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,174870070.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:50+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,174870070.html>
+	None
+2015-07-02 09:33:51+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181822146.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:51+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181822146.html>
+	None
+2015-07-02 09:33:53+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,601988,181715765.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:53+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,601988,181715765.html>
+	None
+2015-07-02 09:33:54+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,179901913.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:54+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,179901913.html>
+	None
+2015-07-02 09:33:55+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181825705.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:55+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181825705.html>
+	None
+2015-07-02 09:33:57+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,167752374.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:57+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,167752374.html>
+	None
+2015-07-02 09:33:58+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,600016,138015432.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:58+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,600016,138015432.html>
+	None
+2015-07-02 09:33:58+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181789509.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:33:59+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181789509.html>
+	None
+2015-07-02 09:34:00+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181832070.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:00+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181832070.html>
+	None
+2015-07-02 09:34:01+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181832727.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:01+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181832727.html>
+	None
+2015-07-02 09:34:02+0800 [GubaSpider] INFO: Crawled 52 pages (at 52 pages/min), scraped 48 items (at 48 items/min)
+2015-07-02 09:34:02+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181834027.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:02+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181834027.html>
+	None
+2015-07-02 09:34:02+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181837630.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:02+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181837630.html>
+	None
+2015-07-02 09:34:04+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181839217.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:04+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181839217.html>
+	None
+2015-07-02 09:34:05+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181828122.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:05+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181828122.html>
+	None
+2015-07-02 09:34:07+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,89249896.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:07+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,89249896.html>
+	None
+2015-07-02 09:34:08+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181838787.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:08+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181838787.html>
+	None
+2015-07-02 09:34:09+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181833355.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:09+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181833355.html>
+	None
+2015-07-02 09:34:10+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,179966316.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:10+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,179966316.html>
+	None
+2015-07-02 09:34:11+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181839225.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:11+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181839225.html>
+	None
+2015-07-02 09:34:12+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181842267.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:12+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181842267.html>
+	None
+2015-07-02 09:34:13+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181843833.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:13+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181843833.html>
+	None
+2015-07-02 09:34:15+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181844443.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:15+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181844443.html>
+	None
+2015-07-02 09:34:16+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181849472.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:16+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181849472.html>
+	None
+2015-07-02 09:34:18+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181850238.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:18+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181850238.html>
+	None
+2015-07-02 09:34:19+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181849224.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:19+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181849224.html>
+	None
+2015-07-02 09:34:20+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181846547.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:20+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181846547.html>
+	None
+2015-07-02 09:34:21+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178582764.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:21+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178582764.html>
+	None
+2015-07-02 09:34:22+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181852602.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:22+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181852602.html>
+	None
+2015-07-02 09:34:24+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181851241.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:24+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181851241.html>
+	None
+2015-07-02 09:34:25+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181856864.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:25+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181856864.html>
+	None
+2015-07-02 09:34:26+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,89188128.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:26+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,89188128.html>
+	None
+2015-07-02 09:34:27+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181856862.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:27+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181856862.html>
+	None
+2015-07-02 09:34:28+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181864935.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:28+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181864935.html>
+	None
+2015-07-02 09:34:30+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,102261093.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:30+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,102261093.html>
+	None
+2015-07-02 09:34:31+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181875909.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:31+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181875909.html>
+	None
+2015-07-02 09:34:32+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181887780.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:32+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181887780.html>
+	None
+2015-07-02 09:34:33+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178872973.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:33+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178872973.html>
+	None
+2015-07-02 09:34:34+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181894649.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:34+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181894649.html>
+	None
+2015-07-02 09:34:35+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181895702.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:35+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181895702.html>
+	None
+2015-07-02 09:34:36+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181896122.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:36+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181896122.html>
+	None
+2015-07-02 09:34:38+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181897477.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:38+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181897477.html>
+	None
+2015-07-02 09:34:39+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181905188.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:39+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181905188.html>
+	None
+2015-07-02 09:34:40+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181885398.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:40+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181885398.html>
+	None
+2015-07-02 09:34:41+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,177243135.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:41+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,177243135.html>
+	None
+2015-07-02 09:34:42+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181911854.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:42+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181911854.html>
+	None
+2015-07-02 09:34:43+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181912175.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:43+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181912175.html>
+	None
+2015-07-02 09:34:45+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181912921.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:45+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181912921.html>
+	None
+2015-07-02 09:34:45+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181914489.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:45+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181914489.html>
+	None
+2015-07-02 09:34:46+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178575257.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:46+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178575257.html>
+	None
+2015-07-02 09:34:47+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181614578.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:47+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181614578.html>
+	None
+2015-07-02 09:34:48+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181919814.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:48+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181919814.html>
+	None
+2015-07-02 09:34:50+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181922993.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:50+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181922993.html>
+	None
+2015-07-02 09:34:51+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,156064957.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:51+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,156064957.html>
+	None
+2015-07-02 09:34:52+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181928817.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:52+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181928817.html>
+	None
+2015-07-02 09:34:53+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178568909.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:53+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178568909.html>
+	None
+2015-07-02 09:34:54+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181325208.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:54+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181325208.html>
+	None
+2015-07-02 09:34:56+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181614577.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:56+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181614577.html>
+	None
+2015-07-02 09:34:57+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,002262,181717150.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:57+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,002262,181717150.html>
+	None
+2015-07-02 09:34:58+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181934796.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:58+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181934796.html>
+	None
+2015-07-02 09:34:59+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181489560.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:34:59+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181489560.html>
+	None
+2015-07-02 09:35:00+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181935407.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:00+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181935407.html>
+	None
+2015-07-02 09:35:01+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181940535.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:01+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181940535.html>
+	None
+2015-07-02 09:35:02+0800 [GubaSpider] INFO: Crawled 104 pages (at 52 pages/min), scraped 100 items (at 52 items/min)
+2015-07-02 09:35:02+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181940183.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:02+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181940183.html>
+	None
+2015-07-02 09:35:03+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178504511.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:03+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178504511.html>
+	None
+2015-07-02 09:35:04+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181956400.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:04+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181956400.html>
+	None
+2015-07-02 09:35:06+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181957998.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:06+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181957998.html>
+	None
+2015-07-02 09:35:07+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181968853.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:07+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181968853.html>
+	None
+2015-07-02 09:35:08+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181961691.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:08+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181961691.html>
+	None
+2015-07-02 09:35:09+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181901358.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:09+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181901358.html>
+	None
+2015-07-02 09:35:11+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181959235.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:11+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181959235.html>
+	None
+2015-07-02 09:35:12+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181736327.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:12+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181736327.html>
+	None
+2015-07-02 09:35:13+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181961945.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:13+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181961945.html>
+	None
+2015-07-02 09:35:14+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181963113.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:14+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181963113.html>
+	None
+2015-07-02 09:35:17+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181960716.html> (referer: http://guba.eastmoney.com/list,000001_2.html)
+2015-07-02 09:35:17+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181960716.html>
+	None
+2015-07-02 09:35:18+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181559098.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:18+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181559098.html>
+	None
+2015-07-02 09:35:18+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181563890.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:18+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181563890.html>
+	None
+2015-07-02 09:35:20+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181583304.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:20+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181583304.html>
+	None
+2015-07-02 09:35:21+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181577838.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:21+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181577838.html>
+	None
+2015-07-02 09:35:23+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181582886.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:23+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181582886.html>
+	None
+2015-07-02 09:35:24+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181348954.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:24+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181348954.html>
+	None
+2015-07-02 09:35:25+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181533903.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:25+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181533903.html>
+	None
+2015-07-02 09:35:27+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,601939,107160035.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:27+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,601939,107160035.html>
+	None
+2015-07-02 09:35:28+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181590016.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:28+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181590016.html>
+	None
+2015-07-02 09:35:29+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,180215928.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:29+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,180215928.html>
+	None
+2015-07-02 09:35:30+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181445485.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:30+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181445485.html>
+	None
+2015-07-02 09:35:31+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181475344.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:31+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181475344.html>
+	None
+2015-07-02 09:35:33+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181613431.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:33+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181613431.html>
+	None
+2015-07-02 09:35:34+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181621343.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:34+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181621343.html>
+	None
+2015-07-02 09:35:35+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181596331.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:35+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181596331.html>
+	None
+2015-07-02 09:35:36+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181624157.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:36+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181624157.html>
+	None
+2015-07-02 09:35:38+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,300170,181342930.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:38+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,300170,181342930.html>
+	None
+2015-07-02 09:35:39+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,601988,181530632.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:39+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,601988,181530632.html>
+	None
+2015-07-02 09:35:40+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181622100.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:40+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181622100.html>
+	None
+2015-07-02 09:35:42+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181590586.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:42+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181590586.html>
+	None
+2015-07-02 09:35:43+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181648540.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:43+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181648540.html>
+	None
+2015-07-02 09:35:44+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181221603.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:44+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181221603.html>
+	None
+2015-07-02 09:35:45+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181371116.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:45+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181371116.html>
+	None
+2015-07-02 09:35:46+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181628883.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:46+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181628883.html>
+	None
+2015-07-02 09:35:48+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181651066.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:48+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181651066.html>
+	None
+2015-07-02 09:35:49+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181656408.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:49+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181656408.html>
+	None
+2015-07-02 09:35:50+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181657587.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:50+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181657587.html>
+	None
+2015-07-02 09:35:51+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181660700.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:51+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181660700.html>
+	None
+2015-07-02 09:35:52+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181637255.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:52+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181637255.html>
+	None
+2015-07-02 09:35:54+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181666352.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:54+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181666352.html>
+	None
+2015-07-02 09:35:55+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,166357147.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:55+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,166357147.html>
+	None
+2015-07-02 09:35:56+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181675040.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:56+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181675040.html>
+	None
+2015-07-02 09:35:57+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181680030.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:57+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181680030.html>
+	None
+2015-07-02 09:35:58+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,174551219.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:58+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,174551219.html>
+	None
+2015-07-02 09:35:59+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181693802.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:35:59+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181693802.html>
+	None
+2015-07-02 09:36:01+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181703216.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:01+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181703216.html>
+	None
+2015-07-02 09:36:02+0800 [GubaSpider] INFO: Crawled 152 pages (at 48 pages/min), scraped 148 items (at 48 items/min)
+2015-07-02 09:36:02+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181639367.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:02+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181639367.html>
+	None
+2015-07-02 09:36:03+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181705103.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:03+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181705103.html>
+	None
+2015-07-02 09:36:04+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181712564.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:04+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181712564.html>
+	None
+2015-07-02 09:36:06+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181614643.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:06+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181614643.html>
+	None
+2015-07-02 09:36:07+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,002222,118526077.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:07+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,002222,118526077.html>
+	None
+2015-07-02 09:36:08+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,176704363.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:08+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,176704363.html>
+	None
+2015-07-02 09:36:09+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181718600.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:09+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181718600.html>
+	None
+2015-07-02 09:36:10+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181740118.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:10+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181740118.html>
+	None
+2015-07-02 09:36:11+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181731207.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:11+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181731207.html>
+	None
+2015-07-02 09:36:12+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181731745.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:12+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181731745.html>
+	None
+2015-07-02 09:36:14+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181751014.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:14+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181751014.html>
+	None
+2015-07-02 09:36:15+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181748316.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:15+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181748316.html>
+	None
+2015-07-02 09:36:17+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181748879.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:17+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181748879.html>
+	None
+2015-07-02 09:36:18+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181750133.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:18+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181750133.html>
+	None
+2015-07-02 09:36:19+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181755369.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:19+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181755369.html>
+	None
+2015-07-02 09:36:20+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181752648.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:21+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181752648.html>
+	None
+2015-07-02 09:36:22+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181755226.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:22+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181755226.html>
+	None
+2015-07-02 09:36:23+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181755728.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:23+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181755728.html>
+	None
+2015-07-02 09:36:25+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181758813.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:25+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181758813.html>
+	None
+2015-07-02 09:36:26+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181737680.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:26+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181737680.html>
+	None
+2015-07-02 09:36:27+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181416615.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:27+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181416615.html>
+	None
+2015-07-02 09:36:28+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,180933041.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:28+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,180933041.html>
+	None
+2015-07-02 09:36:31+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181756594.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:31+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181756594.html>
+	None
+2015-07-02 09:36:31+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181760938.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:31+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181760938.html>
+	None
+2015-07-02 09:36:32+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181775962.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:32+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181775962.html>
+	None
+2015-07-02 09:36:33+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181773685.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:33+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181773685.html>
+	None
+2015-07-02 09:36:34+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181751465.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:34+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181751465.html>
+	None
+2015-07-02 09:36:36+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181779985.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:36+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181779985.html>
+	None
+2015-07-02 09:36:37+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181778002.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:37+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181778002.html>
+	None
+2015-07-02 09:36:38+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,179988411.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:38+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,179988411.html>
+	None
+2015-07-02 09:36:40+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181204054.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:40+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181204054.html>
+	None
+2015-07-02 09:36:41+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181783632.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:41+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181783632.html>
+	None
+2015-07-02 09:36:42+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181786020.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:42+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181786020.html>
+	None
+2015-07-02 09:36:43+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181788861.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:43+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181788861.html>
+	None
+2015-07-02 09:36:44+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,178391667.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:44+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,178391667.html>
+	None
+2015-07-02 09:36:46+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181789771.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:46+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181789771.html>
+	None
+2015-07-02 09:36:47+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181791759.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:47+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181791759.html>
+	None
+2015-07-02 09:36:48+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181769626.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:48+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181769626.html>
+	None
+2015-07-02 09:36:49+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181800720.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:49+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181800720.html>
+	None
+2015-07-02 09:36:51+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,166678566.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:51+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,166678566.html>
+	None
+2015-07-02 09:36:52+0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-07-02 09:36:52+0800 [GubaSpider] INFO: Closing spider (shutdown)
+2015-07-02 09:36:52+0800 [GubaSpider] DEBUG: Crawled (200) <GET http://guba.eastmoney.com/news,000001,181811843.html> (referer: http://guba.eastmoney.com/list,000001_3.html)
+2015-07-02 09:36:52+0800 [GubaSpider] DEBUG: Scraped from <200 http://guba.eastmoney.com/news,000001,181811843.html>
+	None
+2015-07-02 09:36:52+0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown
