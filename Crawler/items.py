@@ -28,13 +28,12 @@ class GubaPostItem(PostItem):
 
 
 class XueqiuPostItem(PostItem):
-    stock_id = Field()
-    title = Field()
-    username = Field()
-    content = Field()
-    created_time = Field()
-    # updated_time = Field()
-    comment_count = Field()
     donate_count = Field()
-    forward_count = Field()
-    favourite_count = Field()
+
+
+class SSEPostItem(PostItem):
+    file_urls = Field()
+
+
+class SSEAnnouncementItem(PostItem):
+    pass

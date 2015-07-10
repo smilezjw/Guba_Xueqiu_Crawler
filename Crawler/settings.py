@@ -18,9 +18,13 @@ NEWSPIDER_MODULE = 'Crawler.spiders'
 
 # lower value, higher priority
 ITEM_PIPELINES = {'Crawler.pipelines.PostPipeline': 100,
-                  'Crawler.pipelines.GubaPostPipeline': 200,
-                  'Crawler.pipelines.XueqiuPostPipeline': 200,
+                  'Crawler.pipelines.GubaPostPipeline': 300,
+                  'Crawler.pipelines.XueqiuPostPipeline': 300,
+                  'Crawler.pipelines.SSEPostPipeline': 300,
+                  'Crawler.pipelines.SSEAnnouncementPostPipeline': 300,
+                  'Crawler.pipelines.SSEPdfPipeline': 200,
                   }
+FILES_STORE = '/Zhang Jiawen/Crawler/SSE_pdf'
 
 DOWNLOAD_DELAY = 1.0    # 1s of delay
 
@@ -57,19 +61,8 @@ DOWNLOAD_DELAY = 1.0    # 1s of delay
 # }
 
 HEADERS = {
-    # 'User-Agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'
     'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/43.0.2357.81 Safari/537.36',
 }
 
 
-COOKIES = {
-    's': '6lt12f3qk6',
-    'bid': '8a16b28500d1dcc065274e0e203cde18_ib8t12fp',
-    'xq_a_token': 'c32574f98b3817bba46fffaf50bb27bf442e0071',
-    'xq_r_token': 'fb215b551ae2e10aa302c580b7cd6e6070b36da6',
-    'u': '2454484686',
-    'xq_token_expire': 'Mon%20Jul%2027%202015%2014%3A40%3A36%20GMT%2B0800%20(CST)',
-    'xq_is_login': '1',
-    'Hm_lvt_1db88642e346389874251b5a1eded6e3': '1435031959,1435802274,1435817926',
-    'Hm_lpvt_1db88642e346389874251b5a1eded6e3': '1435819622',
-}
+

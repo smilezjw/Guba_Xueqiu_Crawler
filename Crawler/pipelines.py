@@ -7,9 +7,12 @@
 
 import MySQLdb
 import MySQLdb.cursors
-
+from datetime import date
 from twisted.enterprise import adbapi
 from scrapy import log
+from scrapy.pipelines.files import FilesPipeline
+from scrapy import Request
+from Crawler.items import SSEPostItem
 
 
 class PostPipeline(object):
@@ -81,6 +84,62 @@ class XueqiuPostPipeline(PostPipeline):
              item['donate_count'],
              item['forward_count'],
              item['favourite_count']
+             )
+        )
+
+    def handle_error(self, e):
+        log.err(e)
+
+
+class SSEPostPipeline(PostPipeline):
+    def process_item(self, item, spider):
+        if spider.name != "SSESpider":
+            return item
+        query = self.dbpool.runInteraction(self._conditional_insert, item)
+        query.addErrback(self.handle_error)
+
+    def _conditional_insert(self, tx, item):
+        tx.execute(
+            'insert into sse (stock_id, url, title, created_time)'
+            + 'values        (%s,       %s,  %s,    %s)',
+            (item['stock_id'],
+             item['url'],
+             item['title'],
+             item['created_time']
+             )
+        )
+
+    def handle_error(self, e):
+        log.err(e)
+
+
+class SSEPdfPipeline(FilesPipeline):
+    def get_media_requests(self, item, info):
+        if isinstance(item, SSEPostItem):
+            for file in item['file_urls']:
+                yield Request(url=file['file_url'], meta={'file': file})
+
+    def file_path(self, request, response=None, info=None):
+        # return request.meta['file']['file_name']
+        return date.today().strftime('%Y%m%d') + '/' + request.meta['file']['file_name']
+
+
+class SSEAnnouncementPostPipeline(PostPipeline):
+    def process_item(self, item, spider):
+        if spider.name != "SSE_Announcement_Spider":
+            return item
+        query = self.dbpool.runInteraction(self._conditional_insert, item)
+        query.addErrback(self.handle_error)
+
+    def _conditional_insert(self, tx, item):
+        tx.execute(
+            'insert into sse_announcement (stock_id, url, title, content, created_time)'
+            + 'values                     (%s,       %s,  %s,    %s,      %s)',
+            (item['stock_id'],
+             item['url'],
+             item['title'],
+             ''.join(item['content']),
+             item['created_time'],
              )
         )
 

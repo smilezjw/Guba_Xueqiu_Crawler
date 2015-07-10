@@ -2,8 +2,8 @@
 
 import re
 import MySQLdb
-from scrapy.spider import Spider
-from scrapy import Selector, log
+from scrapy.spiders import Spider
+from scrapy import Selector
 from scrapy.http import Request
 from Crawler.items import GubaPostItem
 # from Crawler.spiders.startURLs import GetStartURLs

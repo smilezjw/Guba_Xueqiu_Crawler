@@ -14,7 +14,7 @@ def xueqiu():
     urllib2.install_opener(opener)
 
     # 登陆获得cookie
-    params = urllib.urlencode({'username': 'xxxxx', 'password':'xxxxx'}).encode('UTF8')
+    params = urllib.urlencode({'username': '13621980276', 'password':'zhangjiawen1991'}).encode('UTF8')
     headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.2; WOW64; rv:38.0) Gecko/20100101 Firefox/38.0'}
     req = urllib2.Request('http://xueqiu.com/user/login', params, headers=headers)
     httpf = opener.open(req, params)
